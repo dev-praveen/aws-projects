@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: ecommerce-backoffice-apis
+  datasource:
+    url: ${POSTGRES_CLOUD_URL:jdbc:postgresql://localhost:5432/postgres}
+    username: ${POSTGRES_CLOUD_USER:postgres}
+    password: ${POSTGRES_CLOUD_PASSWORD:postgres}
+    driver-class-name: org.postgresql.Driver
